@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     """
     Time complexity: O(n)
