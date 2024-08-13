@@ -1,6 +1,10 @@
 from collections import defaultdict
 
 class Solution:
+    """
+    Time complexity: O(n)
+    Space complexity: O(1)
+    """
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False

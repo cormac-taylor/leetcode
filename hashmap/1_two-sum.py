@@ -1,6 +1,10 @@
 from typing import List
 
 class Solution:
+    """
+    Time complexity: O(n)
+    Space complexity: O(n)
+    """
     def twoSum(self, nums: List[int], target: int) -> List[int]:
 
         valToIndex = {}

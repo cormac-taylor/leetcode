@@ -1,4 +1,8 @@
 class Solution:
+    """
+    Time complexity: O(n + m)
+    Space complexity: O(n + m)
+    """
     def wordPattern(self, pattern: str, s: str) -> bool:
         arr = s.split()
 
