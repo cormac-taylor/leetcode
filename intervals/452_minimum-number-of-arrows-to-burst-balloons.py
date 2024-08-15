@@ -2,8 +2,8 @@ from typing import List
 
 class Solution:
     """
-    Time complexity: O(n)
-    Space complexity: O(n)
+    Time complexity: O(n log(n))
+    Space complexity: O(1)
     """
     def findMinArrowShots(self, points: List[List[int]]) -> int:
         points.sort()
